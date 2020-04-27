@@ -1,0 +1,12 @@
+Un modulo es basiamente un container donde podemos agrupar un grupo de metodos.
+
+Si quiero usar los metodos que estan dentro del modulo, lo primero que tengo que hacer es:
+    include ModuleName
+
+Luego los llamamos:
+    ModuleName.methodName
+
+Si estoy en otro archivo antes de eso debo hacer:
+    require_relative "fileName.rb"
+Requerir el archivo que contiene el modulo.
+El require_relative es si estoy dentro del mismo directorio entonces simplemente pongo el nombre del archivo y no todo el path.
